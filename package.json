@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Report error to npm easly",
   "main": "index.js",
+  "bin": {
+    "report": "bin/npm-report-cli.js"
+  },
   "directories": {
     "test": "test"
   },
