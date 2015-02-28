@@ -11,7 +11,7 @@ npm ERR! npm  x.x.x
 
 npm ERR! Invalid package.json
 npm ERR!
-npm ERR! If you need help, you may report this error at:
+npm ERR! If you need help, you may report this npm error at:
 npm ERR!     <http://github.com/npm/npm/issues>
 
 npm ERR! Please include the following file with any support request:
