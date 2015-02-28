@@ -1,7 +1,7 @@
 {
   "name": "npm-report",
   "version": "0.2.1",
-  "description": "Report error to npm easly",
+  "description": "Report error to npm easily",
   "main": "index.js",
   "bin": {
     "report": "bin/npm-report-cli.js"
