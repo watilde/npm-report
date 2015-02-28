@@ -1,12 +1,9 @@
+var fs = require("fs")
+var path = require("path")
 var test = require("tap").test
 var createURL = require("../lib/create-url")
-
-var fixture =  "https://github.com/npm/npm/issues/new"
-fixture += "?title=title"
-fixture += "&body=npm-debug.log:\n"
-fixture += "```\n"
-fixture += "0 Hello World!\n"
-fixture += "```"
+var fixturePath = path.join(__dirname, "fixture.txt")
+var fixture =  fs.readFileSync(fixturePath, {encoding: "utf8"})
 
 test("create url test", function (t) {
   var url = createURL("title")
