@@ -4,7 +4,7 @@
   "description": "Report error to npm easily",
   "main": "index.js",
   "bin": {
-    "report": "bin/npm-report-cli.js"
+    "npm-report": "bin/npm-report-cli.js"
   },
   "directories": {
     "test": "test"

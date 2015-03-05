@@ -6,7 +6,7 @@ var title = ""
 var url = ""
 var help = ""
 
-help += "\nUsage: report <options>\n\n"
+help += "\nUsage: npm-report <options>\n\n"
 help += "Options:\n"
 help += "  --title=\"Issue title\""
 
