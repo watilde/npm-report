@@ -33,7 +33,7 @@ $ npm install -g npm-report
 
 ## Usage
 ```
-Usage: report <options>
+Usage: npm-report <options>
 
 Options:
   --title="Issue title"

@@ -1,10 +1,10 @@
 {
   "name": "npm-report",
-  "version": "0.2.5",
+  "version": "0.4.0",
   "description": "Report error to npm easily",
   "main": "index.js",
   "bin": {
-    "report": "bin/npm-report-cli.js"
+    "npm-report": "bin/npm-report-cli.js"
   },
   "directories": {
     "test": "test"
