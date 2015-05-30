@@ -1,6 +1,6 @@
 {
   "name": "npm-report",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Report error to npm easily",
   "main": "index.js",
   "bin": {
