@@ -10,8 +10,8 @@
     "test": "test"
   },
   "dependencies": {
-    "minimist": "^1.1.0",
-    "opener": "^1.4.0"
+    "minimist": "^1.1.1",
+    "opener": "^1.4.1"
   },
   "devDependencies": {
     "tap": "^0.7.1"
