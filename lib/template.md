@@ -3,7 +3,7 @@
 - [<% if (reasons.indexOf('npm is crashing') !== -1) { %>x<% } else { %> <% } %>] npm is crashing.
 - [<% if (reasons.indexOf('npm is producing an incorrect install') !== -1) { %>x<% } else { %> <% } %>] npm is producing an incorrect install.
 - [<% if (reasons.indexOf('npm is doing something I don\'t understand') !== -1) { %>x<% } else { %> <% } %>]  npm is doing something I don't understand.
-- [<% if (other !== -1) { %>x<% } else { %> <% } %>] Other: <%= other %>
+- [<% if (other) { %>x<% } else { %> <% } %>] Other: <% if (other) { %><%= other %><% } %>
 
 #### What's going wrong?
 
@@ -13,7 +13,14 @@
 
 <%= reproduce %>
 
-<% if (log) { %><details><summary>npm-debug.log:</summary>```<%= log %>```</details><% } %>
+<% if (log) { %><details>
+<summary>npm-debug.log:</summary>
+
+```
+<%= log %>
+```
+
+</details><% } %>
 
 ### supporting information:
 
