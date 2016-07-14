@@ -18,23 +18,16 @@ npm ERR! Please include the following file with any support request:
 npm ERR!     /path/to/npm-debug.log
 ```
 
-When you need supports after reading [Troubleshooting](https://github.com/npm/npm/wiki/Troubleshooting), this command helps you to report it easily.
-```
-$ ls
-package.json npm-debug.log
-$ npm-report --title="blah blah..."
-```
-
-## Install
-Using npm.
-```
-$ npm install -g npm-report
-```
-
 ## Usage
 ```
-Usage: npm-report <options>
-
-Options:
-  --title="Issue title"
+$ npm install -g npm-report
+$ npm-report
+? Please review this checklist before reporting your issue.
+- Please check if there's a solution in the troubleshooting wiki:
+  https://github.com/npm/npm/wiki/Troubleshooting
+- Also ensure that your new issue conforms to npm's contribution guidelines:
+  https://github.com/npm/npm/wiki/Contributing-Guidelines
+- Participation in this open source project is subject to the npm Code of Conduct:
+  https://www.npmjs.com/policies/conduct
+Checked?
 ```
