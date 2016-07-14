@@ -13,7 +13,7 @@
 
 <%= reproduce %>
 
-<% if (log) { %><details>\n<summary>npm-debug.log:</summary>\n```<%= log %>```\n</details>\n<% } %>
+<% if (log) { %><details><summary>npm-debug.log:</summary>```<%= log %>```</details><% } %>
 
 ### supporting information:
 
