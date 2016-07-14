@@ -1,6 +1,0 @@
-https://github.com/npm/support-cli/issues/new?title=title&body=<details>
-<summary>npm-debug.log:</summary>
-```
-0 Hello World!
-```
-</details>
