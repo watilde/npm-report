@@ -20,7 +20,7 @@
     "tap": "^0.7.1"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "standard lib && tap test/*.js"
   },
   "repository": {
     "type": "git",
