@@ -2,18 +2,21 @@
   "name": "npm-report",
   "version": "0.5.0",
   "description": "Report error to npm easily",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
-    "npm-report": "bin/npm-report-cli.js"
+    "npm-report": "lib/index.js"
   },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "minimist": "^1.1.1",
-    "opener": "^1.4.1"
+    "inquirer": "^1.1.2",
+    "lodash.template": "^4.2.5",
+    "opener": "^1.4.1",
+    "rx": "^4.1.0"
   },
   "devDependencies": {
+    "standard": "^7.1.2",
     "tap": "^0.7.1"
   },
   "scripts": {
