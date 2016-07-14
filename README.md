@@ -1,8 +1,8 @@
 # npm-report
-Report error to npm easily
+Report your error to npm easily
 
 ## What's this
-Sometime you may see a npm error like the following:
+Sometime you may see an npm error like the following:
 ```
 npm ERR! Darwin x.x.x
 npm ERR! argv "/path/to/node/x.x.x/bin/node" "/path/to/npm" "xxx"
@@ -18,7 +18,7 @@ npm ERR! Please include the following file with any support request:
 npm ERR!     /path/to/npm-debug.log
 ```
 
-When you need support after reading [Troubleshooting](https://github.com/npm/npm/wiki/Troubleshooting), this command help you report easily.
+When you need supports after reading [Troubleshooting](https://github.com/npm/npm/wiki/Troubleshooting), this command helps you to report it easily.
 ```
 $ ls
 package.json npm-debug.log
