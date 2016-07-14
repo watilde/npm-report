@@ -20,7 +20,13 @@
 <%= log %>
 ```
 
-</details><% } %>
+</details><% } else { %>
+<!--
+  Please a complete description of how to reproduce the problem.
+  Include a gist of your npm-debug.log file.
+  If you've never used gist.github.com, start here:
+    https://github.com/EmmaRamirez/how-to-submit-your-npm-debug-log
+--><% } %>
 
 ### supporting information:
 
